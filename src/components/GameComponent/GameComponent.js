@@ -27,12 +27,12 @@ function GameComponent(props) {
             />
             <section className="components__buttons">
                 <div className="components__button">
-                    <button className="components__buttons--option" type="submit" onClick={handleCorrectAnswer}>{randomDate(new Date(2018, 0, 1), new Date())}</button>
+                    <button className="components__buttons--option" type="submit" onClick={handleCorrectAnswer}>{randomDate(new Date(2010, 0, 1), new Date())}</button>
                     <button className="components__buttons--option" type="submit" onClick={handleCorrectAnswer}>{props.currentMovie.release_date}</button>
                 </div>
                 <div className="components__button">
                     <button className="components__buttons--option" type="submit" onClick={handleCorrectAnswer}>{randomDate(new Date(2018, 0, 1), new Date())}</button>
-                    <button className="components__buttons--option" type="submit" onClick={handleCorrectAnswer}>{randomDate(new Date(2016, 0, 1), new Date())}</button>
+                    <button className="components__buttons--option" type="submit" onClick={handleCorrectAnswer}>{randomDate(new Date(2000, 0, 1), new Date())}</button>
                 </div>
             </section>
         </section>
