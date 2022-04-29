@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import GamePage from "./pages/GamePage/GamePage.js";
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import StartPage from './pages/StartPage/StartPage';
