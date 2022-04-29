@@ -1,0 +1,12 @@
+.start {
+  background-image: url(../../assets/images/0_cinema-2556157_1280.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.start__button {
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=StartPage.css.map */

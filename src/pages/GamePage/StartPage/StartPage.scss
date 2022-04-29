@@ -1,0 +1,12 @@
+.start {
+    background-image: url(../../assets/images/0_cinema-2556157_1280.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 90vh;
+    object-fit: cover;
+
+    &__button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,11 +1,19 @@
 import './App.css';
 import GamePage from "./pages/GamePage/GamePage.js";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import StartPage from './pages/StartPage/StartPage';
 
 function App() {
   return (
-    <section>
-      <GamePage />
-    </section>
+    <BrowserRouter>
+      <section>
+        <h1 className="logo">MOVIE TRIVIA</h1>
+        <Switch>
+          <Route path="/" exact component={StartPage}/>
+          <Route path="/game" component={GamePage}/>
+        </Switch>
+      </section>
+    </BrowserRouter>
   );
 }
 
