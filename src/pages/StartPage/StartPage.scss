@@ -1,12 +1,16 @@
 .start {
-    background-image: url(../../assets/images/0_cinema-2556157_1280.jpg);
+    background-image: url(../../images/0_cinema-2556157_1280.jpg);
     background-size: cover;
     background-position: bottom;
     height: 90vh;
     object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &__button {
         margin-left: auto;
         margin-right: auto;
+        padding: .75rem;
     }
 }

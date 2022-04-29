@@ -19,4 +19,9 @@
     justify-content: center;
     margin-top: 3rem;
     gap: 10rem;
+    padding-bottom: 5rem;
+
+    &--option {
+        padding: 0.75rem;
+    }
 }

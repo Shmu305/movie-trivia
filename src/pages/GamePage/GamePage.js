@@ -1,8 +1,6 @@
-import './GamePage.css';
+import './GamePage.scss';
 import React from 'react';
-import GameComponent from "../../GameComponent/GameComponent.js";
-import movieBackground from "../../assets/images/istockphoto-1180840343-612x612.jpg";
-
+import GameComponent from "../../components/GameComponent/GameComponent";
 
 class GamePage extends React.Component {
     render() {

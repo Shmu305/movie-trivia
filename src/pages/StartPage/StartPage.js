@@ -1,4 +1,4 @@
-import "./StartPage.css";
+import "./StartPage.scss";
 
 function StartPage(props) {
 

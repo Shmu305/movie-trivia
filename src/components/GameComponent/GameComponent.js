@@ -6,15 +6,16 @@ function GameComponent() {
             <img 
                 src="https://placedog.net/500"
                 className="components__image"
+                alt = "game"
             />
             <section className="components__buttons">
                 <div className="components__button">
-                    <button type="submit">SOMETHING</button>
-                    <button type="submit">SOMETHING</button>
+                    <button className="components__buttons--option" type="submit">SOMETHING</button>
+                    <button className="components__buttons--option" type="submit">SOMETHING</button>
                 </div>
                 <div className="components__button">
-                    <button type="submit">SOMETHING</button>
-                    <button type="submit">SOMETHING</button>
+                    <button className="components__buttons--option" type="submit">SOMETHING</button>
+                    <button className="components__buttons--option" type="submit">SOMETHING</button>
                 </div>
             </section>
         </section>
